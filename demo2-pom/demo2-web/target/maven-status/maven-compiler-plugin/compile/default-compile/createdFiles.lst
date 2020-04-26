@@ -1,0 +1,4 @@
+com\jakartamp\intro\demo2\resources\HelloResource.class
+com\jakartamp\intro\demo2\services\BookService.class
+com\jakartamp\intro\demo2\resources\impl\BookResourceImpl.class
+com\jakartamp\intro\demo2\resources\JaxrsConfig.class
