@@ -1,5 +1,0 @@
-com\jakartamp\intro\demo1\resources\JaxrsConfig.class
-com\jakartamp\intro\demo1\repository\StockRepository.class
-com\jakartamp\intro\demo1\health\MyHealthCheck.class
-com\jakartamp\intro\demo1\resources\StockResource.class
-com\jakartamp\intro\demo1\services\StockService.class

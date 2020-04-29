@@ -1,0 +1,6 @@
+com\jakartamp\intro\stockservice\health\DatabaseHealthCheck.class
+com\jakartamp\intro\stockservice\model\Stock.class
+com\jakartamp\intro\stockservice\resources\JaxrsConfig.class
+com\jakartamp\intro\stockservice\services\StockService.class
+com\jakartamp\intro\stockservice\repository\StockRepository.class
+com\jakartamp\intro\stockservice\resources\StockResource.class

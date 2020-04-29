@@ -1,0 +1,6 @@
+D:\Programacion\JakartaAndMicroProfile\JakartaMP\stock-service\src\main\java\com\jakartamp\intro\stockservice\resources\JaxrsConfig.java
+D:\Programacion\JakartaAndMicroProfile\JakartaMP\stock-service\src\main\java\com\jakartamp\intro\stockservice\services\StockService.java
+D:\Programacion\JakartaAndMicroProfile\JakartaMP\stock-service\src\main\java\com\jakartamp\intro\stockservice\repository\StockRepository.java
+D:\Programacion\JakartaAndMicroProfile\JakartaMP\stock-service\src\main\java\com\jakartamp\intro\stockservice\resources\StockResource.java
+D:\Programacion\JakartaAndMicroProfile\JakartaMP\stock-service\src\main\java\com\jakartamp\intro\stockservice\model\Stock.java
+D:\Programacion\JakartaAndMicroProfile\JakartaMP\stock-service\src\main\java\com\jakartamp\intro\stockservice\health\DatabaseHealthCheck.java

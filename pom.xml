@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
   <modules>
-    <module>demo2-pom</module>
-    <module>demo1-pom</module>
+    <module>items-service</module>
+    <module>stock-service</module>
   </modules>
 </project>
