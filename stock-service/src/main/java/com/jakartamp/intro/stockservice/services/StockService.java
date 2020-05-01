@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import org.eclipse.microprofile.metrics.annotation.Counted;
+import org.eclipse.microprofile.metrics.annotation.Metered;
 import org.eclipse.microprofile.metrics.annotation.Timed;
 
 /**
@@ -21,19 +22,20 @@ public class StockService {
     @Inject
     private StockRepository repository;
     
-    @Counted
+    @Counted(name="StockService.getAll_counter") 
+    @Timed(name="StockService.getAll_timer")
     public List<Stock> getAll(){
         return repository.getData();
     }
     
-    
-    @Timed
+    @Timed 
     public List<Stock> getByStatus(String status){
         return repository.getData().stream()
                 .filter(s -> s.getStatus().equals(status))
                 .collect(Collectors.toList());
     }
     
+    @Metered
     public Optional<Stock> findById(String id){
         return repository.getData().stream()
                 .filter(s ->  s.getId().equals(id))
